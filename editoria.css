@@ -1,0 +1,150 @@
+header {
+  padding-left: 15px;
+  width: 100%;
+  background-color: #b46c00;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+header svg,
+header div,
+header h1,
+header input {
+  float: left;
+}
+
+.container {
+  width: 80%;
+}
+
+header input {
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+main {
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 500px;
+  height: 1400px;
+}
+div {
+  background-image: url('https://lh3.googleusercontent.com/proxy/ZcdcHu767gzbI0WCLYmu-R256fyclXjJ-y7pHfv1bb1MZ4kIaupF7iZJYjThUDITkFd5rXwzvC4SFyWt585RDLk4aEsX8NJgYEA');
+  width: 1450px;
+  float: left;
+  height: 50px;
+  padding-left: 80px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+main h1 {
+  font: 500 40px 'Roboto', sans-serif;
+}
+
+main small {
+  font: 300 25px 'Roboto', sans-serif;
+  padding-top: 1%;
+}
+
+#main-img {
+  padding-top: 50px;
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+a {
+  color: black;
+}
+main p {
+  width: 80%;
+  margin: auto;
+  font: 300 20px 'Roboto', sans-serif;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#title-2 {
+  font: 500 30px 'Roboto', sans-serif;
+}
+
+main section {
+  width: 33%;
+  float: left;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+section {
+  padding-right: 40px;
+}
+main section img {
+  width: 340px;
+  height: 240px;
+}
+
+main section h1 {
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #b46c00;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+
+footer h1 {
+  font-size: 35px;
+}
+
+@media (max-width: 816px) {
+  #main-img {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (max-width: 400px) {
+  #main-img {
+    width: 80%;
+    height: 80%;
+  }
+}
+#close {
+  z-index: 3;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 400px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #9b5d00;
+  z-index: 2;
+  padding-top: 200px;
+  border-right: black 1px solid;
+}
+
+#overlay h1 {
+  color: black;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
