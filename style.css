@@ -147,7 +147,7 @@ img {
 #overlay {
   position: fixed;
   display: none;
-  width: 400px;
+  width: 0px;
   height: 100%;
   top: 0;
   left: 0;

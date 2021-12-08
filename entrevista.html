@@ -15,7 +15,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="editoria.css" />
+    <link rel="stylesheet" href="content.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,44 +54,49 @@
         <path d="M0 0h24v24H0z" fill="none" />
         <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
       </svg>
-      <h1>Editoria</h1>
+      <h1>Conteúdo</h1>
       <form action="">
         <input type="text" placeholder="Pesquisar..." />
       </form>
     </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">Esportes</div>
-        <div class="col-sm">Política</div>
-        <div class="col-sm">Tecnologia</div>
-        <div class="col-sm">Saúde</div>
-      </div>
-    </div>
     <main class="container">
-      <section>
-        <a href="cronica-do-kalil.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>Crônica do Kalil</h2></a
-        >
-      </section>
-      <section>
-        <a href="a-torcida-do-beira-rio.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>A torcida do Beira-Rio</h2></a
-        >
-      </section>
-      <section>
-        <a href="a-vida-de-um-pro-player.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>A vida de um pro-player</h2></a
-        >
-      </section>
-      <section>
-        <a href="cronica-do-gustavo-costa.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>Crônica do Gustavo Costa</h2></a
-        >
-      </section>
+      <h1>Entrevisa com o Sandro Martins</h1>
+      <h2>Entrevista com o professor do técnico do Senac Gestão & Negócios</h2>
+      <video
+        controls
+        src="video/X2Download.com-8 de dezembro de 2021.mp4"
+      ></video>
+      <p>
+        Olá hoje nós iremos entrevistar o nosso professor de tecnico e Projeto
+        Profissional o Sandro Martins da Costa, ele da aula na escola de ensino
+        médio Senac Gestão e Negócios de Porto Alegre, que fica no shopping
+        total, para as turmas do primeiro até o terceiro ano (mesmo que a nossa
+        escola ainda não tenha por enquanto).
+      </p>
+      <hr />
+      <h1 id="title-2">Mais Notícias</h1>
+      <div id="main">
+        <div>
+          <a href="cronica-do-kalil.html">
+            <img src="images/15620738245d1b5ae066db0-texto.jpg" />
+            <h2>Crônica do Kalil</h2></a
+          >
+        </div>
+
+        <div>
+          <a href="cronica-do-gustavo-costa.html">
+            <img src="images/15620738245d1b5ae066db0-texto.jpg" />
+            <h2>Crônica do Gustavo Costa</h2></a
+          >
+        </div>
+
+        <div>
+          <a href="a-vida-de-um-pro-player.html">
+            <img src="images/15620738245d1b5ae066db0-texto.jpg" />
+            <h2>A vida de um pro-player</h2></a
+          >
+        </div>
+      </div>
       <div id="overlay">
         <nav>
           <ul>
@@ -99,7 +104,7 @@
               <a href="index.html"><h1>Home</h1></a>
             </li>
             <li>
-              <a id="first" href="#"><h1>Editoria</h1></a>
+              <a href="editoria.html"><h1>Editoria</h1></a>
             </li>
           </ul>
         </nav>
@@ -110,7 +115,6 @@
     </footer>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -121,13 +125,11 @@
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
       crossorigin="anonymous"
     ></script>
-    <script>
-      src =
-        'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js';
-      integrity =
-        'sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy';
-      crossorigin = 'anonymous';
-    </script>
-    <script src="editoria.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="content.js"></script>
   </body>
 </html>

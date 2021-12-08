@@ -15,7 +15,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="editoria.css" />
+    <link rel="stylesheet" href="content.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,44 +54,60 @@
         <path d="M0 0h24v24H0z" fill="none" />
         <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
       </svg>
-      <h1>Editoria</h1>
+      <h1>Conteúdo</h1>
       <form action="">
         <input type="text" placeholder="Pesquisar..." />
       </form>
     </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">Esportes</div>
-        <div class="col-sm">Política</div>
-        <div class="col-sm">Tecnologia</div>
-        <div class="col-sm">Saúde</div>
-      </div>
-    </div>
     <main class="container">
-      <section>
-        <a href="cronica-do-kalil.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>Crônica do Kalil</h2></a
-        >
-      </section>
-      <section>
-        <a href="a-torcida-do-beira-rio.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>A torcida do Beira-Rio</h2></a
-        >
-      </section>
-      <section>
-        <a href="a-vida-de-um-pro-player.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>A vida de um pro-player</h2></a
-        >
-      </section>
-      <section>
-        <a href="cronica-do-gustavo-costa.html">
-          <img src="images/15620738245d1b5ae066db0-texto.jpg" />
-          <h2>Crônica do Gustavo Costa</h2></a
-        >
-      </section>
+      <h1>Grêmio</h1>
+      <h2>Artigo de opinião do Matheus</h2>
+      <small>Gustavo Costa, 24 de novembro de 2021</small>
+      <img
+        id="main-img"
+        src="images/15620738245d1b5ae066db0-texto.jpg"
+        alt="Crônica"
+      />
+      <p>
+        A permanência do Grêmio football clube porto-alegrense na série A é
+        muito difícil porém não impossível, o clube que tem 88% de chances de
+        ser rebaixado precisa de 16 pontos dos 21 que serão disputados ou seja o
+        clube precisará vencer 5 jogos e empatar 1 dos 7 últimos jogos dessa
+        reta final de campeonato, mas além disso precisará contar com outros
+        resultados paralelos de outros clubes que também estão escapar dessa
+        mesma situação que o Grêmio está passando. E se isso se concretizar será
+        o 3° rebaixamento do clube, e na minha visão isso vai acontecer, porque
+        o time não apresenta uma mudança de atitude, tem jogadores que não
+        entendem a grandeza do Grêmio e não honram essa camisa tão pesada que
+        vestem, estão completamente abalados e não conseguem esboçar alguma
+        reação dentro de campo. Mas espero que o clube consiga fugir dessa
+        situação que é humilhante para um clube com o tamanho e a grandeza do
+        Grêmio.
+      </p>
+      <hr />
+      <h1 id="title-2">Mais Notícias</h1>
+      <div id="main">
+        <div>
+          <a href="cronica-do-kalil.html">
+            <img src="images/15620738245d1b5ae066db0-texto.jpg" />
+            <h2>Crônica do Kalil</h2></a
+          >
+        </div>
+
+        <div>
+          <a href="cronica-do-gustavo-costa.html">
+            <img src="images/15620738245d1b5ae066db0-texto.jpg" />
+            <h2>Crônica do Gustavo Costa</h2></a
+          >
+        </div>
+
+        <div>
+          <a href="a-vida-de-um-pro-player.html">
+            <img src="images/15620738245d1b5ae066db0-texto.jpg" />
+            <h2>A vida de um pro-player</h2></a
+          >
+        </div>
+      </div>
       <div id="overlay">
         <nav>
           <ul>
@@ -99,7 +115,7 @@
               <a href="index.html"><h1>Home</h1></a>
             </li>
             <li>
-              <a id="first" href="#"><h1>Editoria</h1></a>
+              <a href="editoria.html"><h1>Editoria</h1></a>
             </li>
           </ul>
         </nav>
@@ -110,7 +126,6 @@
     </footer>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -121,13 +136,11 @@
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
       crossorigin="anonymous"
     ></script>
-    <script>
-      src =
-        'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js';
-      integrity =
-        'sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy';
-      crossorigin = 'anonymous';
-    </script>
-    <script src="editoria.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="content.js"></script>
   </body>
 </html>

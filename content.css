@@ -153,3 +153,9 @@ a:hover {
 a {
   color: black;
 }
+
+video {
+  width: 90%;
+  height: 50%;
+  margin: 100px;
+}
